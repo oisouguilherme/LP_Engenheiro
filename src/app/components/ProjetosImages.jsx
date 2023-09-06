@@ -108,7 +108,7 @@ export function ProjetosImages() {
           className="w-64 object-cover h-40"
         />
       </div>
-      <div className="flex justify-around flex-wrap max-w-6xl mx-auto">
+      <div className="flex px-4 md:justify-around flex-wrap gap-4 max-w-6xl mx-auto">
         <div className="flex gap-2 items-center">
           <div className="bg-laranja-400 w-12 h-12 text-white flex items-center justify-center">
             <svg

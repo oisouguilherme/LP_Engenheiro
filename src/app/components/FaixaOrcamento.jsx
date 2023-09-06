@@ -3,7 +3,7 @@ import Link from "next/link";
 export function FaixaOrcamento() {
   return (
     <div className="bg-laranja-400 text-white">
-      <div className="max-w-6xl mx-auto py-8 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto py-8 flex flex-col gap-4 md:flex-row justify-between items-center px-4">
         <div className="space-y-2">
           <h2 className="text-2xl font-semibold">ORÇAMENTO RÁPIDO E SEM ENROLAÇÃO</h2>
           <p>

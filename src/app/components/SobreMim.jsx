@@ -3,8 +3,8 @@ import Perfil from "../../assets/perfil.jpg";
 
 export function SobreMim() {
   return (
-    <div id="sobre" className="max-w-6xl mx-auto grid grid-cols-2 gap-8 py-24">
-      <div className="flex justify-end">
+    <div id="sobre" className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 py-24 px-4">
+      <div className="flex md:justify-end">
         <Image src={Perfil} alt="foto de ..." className="w-96 object-cover" />
       </div>
       <div className="text-lg text-zinc-600 flex flex-col gap-4">

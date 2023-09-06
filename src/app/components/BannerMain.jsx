@@ -4,9 +4,9 @@ export function BannerMain() {
   return (
     <div className="">
       <div className="bg-black bg-opacity-80">
-        <div className="max-w-6xl mx-auto grid grid-cols-2 py-24">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 py-24 px-4">
           <div className="flex flex-col items-start gap-8">
-            <h1 className="uppercase text-5xl font-semibold text-laranja-400">
+            <h1 className="uppercase text-3xl md:text-5xl font-semibold text-laranja-400">
               projetos de interiores e arquitetônicos exclusivos para sua
               família
             </h1>
@@ -15,7 +15,7 @@ export function BannerMain() {
             </p>
             <Link
               href={"#"}
-              className="bg-laranja-400 hover:bg-orange-500 duration-300 text-white px-28 py-4 uppercase"
+              className="bg-laranja-400 hover:bg-orange-500 duration-300 text-white px-8 md:px-28 py-4 uppercase"
             >
               Solicitar Orçamento
             </Link>

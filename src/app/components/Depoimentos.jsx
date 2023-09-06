@@ -20,7 +20,7 @@ export function Depoimentos() {
           mousewheel={true}
           keyboard={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-          className="mySwiper h-[440px]"
+          className="mySwiper md:h-[440px]"
         >
           <SwiperSlide>
             <Depoimento />

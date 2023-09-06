@@ -87,9 +87,9 @@ export default function Header() {
           </ul>
         </div>
         <div className="hamburger lg:hidden" onClick={toggleMenu}>
-          <span className="block w-6 h-1 bg-black mb-1"></span>
-          <span className="block w-6 h-1 bg-black mb-1"></span>
-          <span className="block w-6 h-1 bg-black"></span>
+          <span className="block w-6 h-1 bg-white mb-1"></span>
+          <span className="block w-6 h-1 bg-white mb-1"></span>
+          <span className="block w-6 h-1 bg-white"></span>
         </div>
       </div>
     </section>
